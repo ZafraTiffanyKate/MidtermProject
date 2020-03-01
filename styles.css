@@ -1,0 +1,29 @@
+.bckgrnd{
+    background-image: url("try.gif");
+}
+.about{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    color:goldenrod;
+}
+.display{
+    color: white;
+}
+.lead{
+    color: white;
+}
+.sentence{
+    text-align: center;
+    color: gray;
+}
+.ab{
+    text-align: center;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: initial;
+    font-size: 100px;
+    color: goldenrod;
+}
+
+.cd{
+    nav-right: initial;
+}
