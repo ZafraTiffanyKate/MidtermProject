@@ -1,11 +1,14 @@
+
 .bckgrnd{
     background-image: url("try.gif");
 }
 .about{
     text-align: center;
     font-size: 70px;
-    font-family: 'Times New Roman', Times, serif;
-    color:goldenrod;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: larger;
+    color: #1F456E;
 }
 .display{
     color: white;
@@ -21,9 +24,56 @@
     text-align: center;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: initial;
     font-size: 100px;
-    color: goldenrod;
+    color: #1F456E;
 }
 
 .cd{
     nav-right: initial;
 }
+
+.title1{
+    text-align: center;
+}
+
+.text2{
+    font: bolder;
+    font-size: larger;
+    text-align: justify;
+}
+
+.nav-link{
+    color: darkslateblue;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sen{
+    margin: 40px;
+    font-variant: small-caps;
+    font-size: 30px;
+    color: goldenrod;
+}
+
+.img{
+    margin: 40px 5px 5px 50px;
+}
+.imgc{
+   margin: 40px 5px 5px 10px;
+}
+
+.imgc2{
+    margin: 40px 5px 5px 10px;
+ }
+
+ .imgr{
+    margin: 40px 5px 5px 10px;
+ }
+
+ .mprof{
+     text-align: center;
+     color: #1F456E;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font: larger;
+     font-size: 70px;  
+ }
+
