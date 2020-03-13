@@ -5,61 +5,138 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery page</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="exgal.css">
+    
 </head>
 <body>
-    <div id="wrapper">
-        <nav class="navbar navbar-light" style="background-color: whitesmoke;">
-            <a class="navbar-brand" href="#">
-              <img src="logo.png" width="90" height="40" alt="Logo">
-            </a>
-         
-    
-            <ul class="nav justify-content-end nav nav-pills">
-                <li class="nav-item"><a class="nav-link" href="home.html">Home</a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="project.html">Gallery</a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="#">Contact Me</a>
-                </li>
-              </ul>
-        </nav>
-        </div>
+   <!--NAVIGATION-->
+   <nav class="navbar  navbar-expand-md fixed-top" style="background-color: #FBDE7E;" >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <p class="sen">Mamamoo got their first win on March 6, 2016 at the Music Show with their song "You're The Best". Even up to
-            the recent time, Mamamoo still continues to win awards consistently. Let's take a look from some of their winning peaks from 
-            the award shows on the year 2016-2019.
-          </p>
-        <div class="d-flex align-content-start flex-wrap">
-          <div class="img"><img src="w1.jpg" height="200px" width="300px" alt="GDA"></div>
-          <div class="imgc"><img src="w2.jpg" height="200px" width="300px" alt="GDA"></div>
-          <div class="imgc2"><img src="w3.jpg" height="200px" width="300px" alt="GDA"></div>
-          <div class="imgr"><img src="w4.jpg" height="200px" width="300px" alt="GDA"></div>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="profile.html">Portfolio</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+  </nav>
+  
 
-        <div class="d-flex align-content-start flex-wrap">
-          <div class="img"><img src="w5.jpg" height="200px" width="300px" alt="GDA"></div>
-          <div class="imgc"><img src="w6.jpg" height="200px" width="300px" alt="GDA"></div>
-          <div class="imgc2"><img src="w7.jpg" height="200px" width="300px" alt="GDA"></div>
-          <div class="imgr"><img src="w8.jpg" height="200px" width="300px" alt="GDA"></div>
-        </div>
+       <!--GALLERY-->
+       <p class="sen">Mamamoo got their first win on March 6, 2016 at the Music Show with their song "You're The Best". Even up to
+        the recent time, Mamamoo still continues to win awards consistently. Let's take a look from some of their winning peaks from 
+        the award shows on the year 2016-2019.
+      </p>
 
-        <div class="d-flex align-content-start flex-wrap">
-          <div class="img"><img src="w9.jpg" height="200px" width="300px" alt="GDA"></div>
-          <div class="imgc"><img src="w10.jpg" height="200px" width="300px" alt="GDA"></div>
-          <div class="imgc2"><img src="w11.jpg" height="200px" width="300px" alt="GDA"></div>
-          <div class="imgr"><img src="w12.jpg" height="200px" width="300px" alt="GDA"></div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="content">
+            <img src="w1.jpg" alt="win1" style="width:100%">
+            <h3 class="gtitle">March 6, 2016</h3>
+            <p class="pcontent">Song: You're The Best</p>
+            <p class="pcontent">Number of win/s: 3</p>
+          </div>
         </div>
+        <div class="col-sm-3">
+          <div class="content">
+            <img src="w2.jpg" alt="win2" style="width:100%">
+            <h3  class="gtitle">November 19, 2017</h3>
+            <p class="pcontent">Song: Decalcomanie</p>
+            <p class="pcontent">Number of win/s: 1</p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="content">
+            <img src="w3.jpg" alt="win3" style="width:100%">
+            <h3  class="gtitle">June 28, 2017</h3>
+            <p class="pcontent">Song: Yes I am</p>
+            <p class="pcontent">Number of win/s: 6</p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="content">
+            <img src="w4.jpg" alt="win4" style="width:100%">
+            <h3 class="gtitle">November 15, 2017</h3>
+            <p class="pcontent">Best Icon Award</p>
+            <p class="pcontent">Held at the Asia Artist Award</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="content">
+        <img src="w5.jpg" alt="win5" style="width:100%">
+        <h3 class="gtitle">1st win of Mamamoo from Immortal Song</h3>
+        <p class="pcontent">Immortal Song is a competition in South
+          Korea where artist competes with each other. This is a good
+          place for promotion especially for the new performers in 
+          the industry. Mamamoo competes with other veterans artists and 
+          proved how much talented they are. Immortal Song is Composed
+          of several roounds until reaching the finals and Mamamoo rise
+          until the end.
+        </p>
+      </div>
 
-        <div class="d-flex align-content-start flex-wrap">
-          <div class="img"><img src="w13.jpg" height="200px" width="300px" alt="GDA"></div>
-          <div class="imgc"><img src="w14.jpg" height="200px" width="300px" alt="GDA"></div>
-          <div class="imgc2"><img src="w15.jpg" height="200px" width="300px" alt="GDA"></div>
-          <div class="imgr"><img src="w16.jpg" height="200px" width="300px" alt="GDA"></div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="content">
+            <img src="w6.jpg" alt="win6" style="width:100%">
+            <h3 class="gtitle">March 25, 2018</h3>
+            <p class="pcontent">Song: Starry Night</p>
+            <p class="pcontent">Number of win/s: 9</p>
+          </div>
         </div>
+        <div class="col-sm-3">
+          <div class="content">
+            <img src="w7.jpg" alt="win7" style="width:100%">
+            <h3 class="gtitle">July 24, 2018</h3>
+            <p class="pcontent">Song: Egotistic</p>
+            <p class="pcontent">Number of win/s: 2</p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="content">
+            <img src="w8.jpg" alt="win8" style="width:100%">
+            <h3 class="gtitle">March 21, 2019</h3>
+            <p class="pcontent">Song: Gogobebe</p>
+            <p class="pcontent">Number of win/s: 7</p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="content">
+            <img src="w9.jpg" alt="win9" style="width:100%">
+            <h3 class="gtitle">Nov 24, 2019</h3>
+            <p class="pcontent">Song: Hip</p>
+            <p class="pcontent">Number of win/s: 6</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="content">
+        <img src="w10.jpg" alt="win10" style="width:100%">
+        <h3 class="gtitle">"Best Group"  & "Best  Solo" award for Mamamoo</h3>
+        <p class="pcontent">Held last January 2020, Mamamoo won this category
+          at the Golden Disk Award held in South Korea. The Best Solo award
+          is intended for one of the members, Hwasa. 
+
+        </p>
+      </div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </body>
 </html>

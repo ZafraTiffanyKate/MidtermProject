@@ -1,0 +1,72 @@
+body {
+    padding: 20px;
+    font-family: Arial;
+    background-color: lightgoldenrodyellow;
+  }
+  a:visited{
+    color: crimson;
+  }
+ a {
+   font-size: larger;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ nav{
+     background-color: #FBDE7E;
+ }
+
+ .jumbotron{
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    
+}
+
+.card{
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.bckgrnd{
+    background-image: url("try2.gif");
+}
+
+.about{
+    text-align: center;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: larger;
+    color: gray;
+}
+.card{
+    background-color: lightgoldenrodyellow;
+    margin-right: 30;
+}
+.display{
+    color:crimson;
+    text-align: left;
+    font: xx-large;
+}
+pre {
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    white-space: pre;
+    margin: 1em 0;
+    font-size: large;
+    margin-bottom: 30px;
+  }
+.lead{
+    color: white;
+}
+.sentence{
+    text-align: center;
+    color: gray;
+}
+.title1{
+    text-align: center;
+    color:crimson;
+}
+
+.text1{
+    text-align: justify;
+}

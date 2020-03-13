@@ -1,7 +1,27 @@
-
+.jumbotron{
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    
+}
+body {
+    padding: 20px;
+    font-family: Arial;
+    background-color: lightgoldenrodyellow;
+  }
+a:visited{
+    color: darksalmon;
+}
 .bckgrnd{
     background-image: url("try.gif");
 }
+.card{
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+
 .about{
     text-align: center;
     font-size: 70px;
@@ -9,6 +29,9 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font: larger;
     color: #1F456E;
+}
+.card{
+    margin-left: 80px;
 }
 .display{
     color: white;
@@ -20,6 +43,8 @@
     text-align: center;
     color: gray;
 }
+
+
 .ab{
     text-align: center;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: initial;
@@ -54,20 +79,66 @@
     color: goldenrod;
 }
 
-.img{
-    margin: 40px 5px 5px 50px;
-}
-.imgc{
-   margin: 40px 5px 5px 10px;
-}
 
-.imgc2{
-    margin: 40px 5px 5px 10px;
- }
+.row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    margin: 0;
+  }
 
- .imgr{
-    margin: 40px 5px 5px 10px;
+ *{
+     margin:0;
  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  /* for the txt in the gallery*/
+  .gtitle{
+      text-align: center;
+      color: goldenrod;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .pcontent{
+      text-align: center;
+      color: darkgray;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
 
  .mprof{
      text-align: center;
@@ -76,4 +147,114 @@
      font: larger;
      font-size: 70px;  
  }
+
+ .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: lightslategrey;
+    overflow: hidden;
+    width:200%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: justify;
+  }
+ .lt{
+     text-align: center;
+ }
+ .artist{
+     text-align: center;
+ }
+.column{
+    margin: 20px 0px 30px 20px;
+}
+
+.column1{
+    margin: 20px 20px 30px 15px;
+}
+
+.byulyi{
+    font-size: 35px;
+    padding-top: 14px;
+    text-align: center;
+    font-style: italic;
+}
+
+.moonb{
+    text-align: center;
+}
+.byul{
+    font-size: 15px;
+}
+
+.sun{
+    font-size: 35px;
+    padding-top: 14px;
+    text-align: center;
+    font-style: italic;
+}
+
+.solar{
+    text-align: center;
+}
+
+.yongsun{
+    font-size: 15px;
+}
+
+.wind{
+    font-size: 35px;
+    padding-top: 14px;
+    text-align: center;
+    font-style: italic;
+}
+
+.jung{
+    text-align: center;
+}
+
+.wheein{
+    font-size: 15px;
+}
+
+.ahn{
+    font-size: 35px;
+    padding-top: 14px;
+    text-align: center;
+    font-style: italic;
+}
+
+.hwasa{
+    text-align: center;
+}
+
+.hyejin{
+    font-size: 15px;
+}
 

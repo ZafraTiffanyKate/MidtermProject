@@ -1,0 +1,28 @@
+body {
+    padding: 20px;
+    font-family: Arial;
+    background-color: lightgoldenrodyellow;
+    padding-top: 80px;
+  }
+  a:visited{
+    color: crimson;
+  }
+ a {
+   font-size: larger;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ 
+ .div-class{
+   padding-left: 30%;
+ }
+
+.card{
+  position: absolute;
+}
+
+
+img{
+  width: 60px;
+  height: auto;
+}
+ 

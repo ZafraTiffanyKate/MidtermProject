@@ -1,0 +1,77 @@
+
+  
+  body {
+    padding: 20px;
+    font-family: Arial;
+    background-color: lightgoldenrodyellow;
+  }
+  a:visited{
+    color: crimson;
+  }
+ a {
+   font-size: larger;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+  .sen{
+    margin: 40px;
+    font-variant: small-caps;
+    font-size: 30px;
+    padding-top: 10px;
+    color: darkgoldenrod;
+}
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: #FBDE7E;
+    padding: 10px;
+  }
+
+  /* for the txt in the gallery*/
+  .gtitle{
+    text-align: center;
+    color: crimson;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pcontent{
+    text-align: center;
+    color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+  img {
+    border-radius: 50%;
+  }
+.twit{
+  widows: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+
+.footer{
+  position: fixed;
+  bottom: 0%;
+}
