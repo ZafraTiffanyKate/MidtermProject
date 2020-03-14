@@ -1,7 +1,9 @@
 body {
-    background-color: floralwhite;
+    background-color: lightgoldenrodyellow;
   }
-
+  nav{
+    background-color: #FBDE7E;
+}
   a:visited{
     color: crimson;
   }
@@ -18,6 +20,7 @@ body {
     padding-top: 5%;
 }
 
+/*ABOUT THE PAGE*/
 .first{
     padding-top: 5%;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -27,7 +30,7 @@ body {
     padding-bottom: 0;
 }
 .second{
-    text-align: justify;
+    text-align: left;
     font-family: 'Times New Roman', Times, serif;
     color: darkgray;
     padding-left: 2%;

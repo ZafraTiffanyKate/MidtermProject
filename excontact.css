@@ -1,9 +1,11 @@
 body {
-    padding: 20px;
-    font-family: Arial;
     background-color: lightgoldenrodyellow;
     padding-top: 80px;
   }
+  /*NAVIGATION*/
+  nav{
+    background-color: #FBDE7E;
+}
   a:visited{
     color: crimson;
   }
@@ -11,18 +13,45 @@ body {
    font-size: larger;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
- 
- .div-class{
-   padding-left: 30%;
- }
-
-.card{
-  position: absolute;
-}
-
-
-img{
+ /*DEVELOPER PICTURE*/
+ img{
   width: 60px;
   height: auto;
 }
- 
+.hd{
+  margin-left: 27%;
+  color: crimson;
+  font-size: 40px;
+}
+/*FOLLOW THEM TEXT*/
+.blockquote{
+  margin-left: 20%;
+}
+/*SOCIAL MEDIA ICONS*/
+.card-link{
+  margin-left: 23%;
+}
+
+/*DESCRIPTION AFTER PICTURE*/
+.card-img-tops{
+  width: 20%;
+  height: auto;
+  margin-left: 37%;
+}
+
+#items{
+  background-color: lightgoldenrodyellow;
+  width: 30%;
+  height: auto;
+  margin-left: 30%;
+  text-align: center;
+}
+
+#text{
+  margin-left: 30%;
+  text-align: left;
+}
+
+#foll{
+  margin-left: 30%;
+}
